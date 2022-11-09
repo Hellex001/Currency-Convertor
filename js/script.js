@@ -3,10 +3,10 @@ function turnon(){
     
     console.log(npr);
 
-    document.getElementById('inrOutput').innerHTML = npr/1.6;
-    document.getElementById('usdOutput').innerHTML = npr*0.0087;
-    document.getElementById('AusOutput').innerHTML = npr*0.013;
-    document.getElementById('poundsOutput').innerHTML = npr*0.0070;
+    document.getElementById('cadOutput').innerHTML = npr/96.77;
+    document.getElementById('usdOutput').innerHTML = npr/130.14;
+    document.getElementById('AusOutput').innerHTML = npr/84.03;
+    document.getElementById('poundsOutput').innerHTML = npr/148.69;
     
 }
 
